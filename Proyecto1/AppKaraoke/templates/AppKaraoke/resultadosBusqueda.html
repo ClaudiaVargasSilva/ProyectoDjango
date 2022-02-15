@@ -1,0 +1,12 @@
+{% if karaokes %}
+<ul>
+    <h3>RESULTADOS DE BUSQUEDA</h3>
+    {% for  karaoke in karaokes %}
+        <li>CANCIÓN: {{karaoke.nombreCancion}}</li>
+        <li>ARTISTA: {{karaoke.artista}}</li> 
+    {% endfor %}
+        
+</ul>
+    
+{% endif %}
+    
